@@ -1,0 +1,58 @@
+
+body {
+    background: radial-gradient(circle, #e1ebf1, #fff);
+}
+
+.container {
+    margin: 650px auto;
+    width: 270px;
+    height: 500px;
+    position: relative;
+    perspective: 1000px;
+    transform: scale(1.70);
+}
+
+.carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.item {
+    position: absolute;
+    width: 280px;
+    height: 500px;
+    opacity: 0.95;
+}
+
+.item img {
+    height: 100%;
+    width: auto;
+    border-radius: 1rem;
+}
+
+.a {
+    transform: rotateY(0deg) translateZ(250px);
+}
+
+.b {
+    transform: rotateY(60deg) translateZ(250px);
+}
+
+.c {
+    transform: rotateY(120deg) translateZ(250px);
+}
+
+.d {
+    transform: rotateY(180deg) translateZ(250px);
+}
+
+.e {
+    transform: rotateY(240deg) translateZ(250px);
+}
+
+.f {
+    transform: rotateY(300deg) translateZ(250px);
+}
